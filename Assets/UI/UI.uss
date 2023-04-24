@@ -1,0 +1,45 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 12px;
+}
+
+.title {
+    font-size: 80px;
+    color: rgb(31, 29, 29);
+    margin-top: 15%;
+    margin-bottom: 15%;
+    -unity-font: url('project://database/Assets/static/Nunito-Black.ttf?fileID=12800000&guid=e7a66346db3a42448823a72d83bf5ebd&type=3#Nunito-Black');
+    -unity-font-definition: none;
+}
+
+.days {
+}
+
+.container {
+    border-width: 1px;
+    width: 70%;
+    height: 12%;
+    border-bottom-color: rgb(36, 13, 13);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.button {
+    width: 400px;
+    height: 100px;
+    margin: 100px
+}
+
+
+.textContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
