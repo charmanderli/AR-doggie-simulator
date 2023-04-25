@@ -1,6 +1,10 @@
 # AR-doggie-simulator
 Mixed reality course project
 
+![IMG_7229 - Copy](https://user-images.githubusercontent.com/54521837/234148932-973f225a-4eb5-4ea8-b752-0b77d285a1e3.JPG)  
+
+Project Hu-sky (for when my doggie did not spawn at the correct place)  
+
 ## AR Doggie Simulator Demo
 
 https://youtu.be/gYZASOOnZBM  
