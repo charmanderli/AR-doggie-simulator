@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LoadScenes : MonoBehaviour
 {
+    [SerializeField] string sceneName;
     public void loadMainScreen()
     {
-        SceneManager.LoadScene("TaskListUI");
+        SceneManager.LoadScene(sceneName);
     }
 }

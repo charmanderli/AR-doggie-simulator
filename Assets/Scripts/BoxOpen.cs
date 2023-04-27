@@ -9,8 +9,6 @@ public class BoxOpen : MonoBehaviour
     private Vector3 touchPosition;
     [SerializeField] GameObject acceptUI;
 
-    [SerializeField] GameObject nextCanvas;
-
     DialogueTrigger trigger;
     // Update is called once per frame
     void Update()
@@ -29,7 +27,7 @@ public class BoxOpen : MonoBehaviour
                     if (hit.transform.name.Contains("Caja"))
                     {
 
-                        nextCanvas.SetActive(true);
+        
                         acceptUI.SetActive(true);
                         trigger = this.GetComponent<DialogueTrigger>();
                         trigger.TriggerDialogue();

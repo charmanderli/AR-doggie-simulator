@@ -854,6 +854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c95263af936380a409ee6e4df192bac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: TaskListUI
 --- !u!4 &1089724880
 Transform:
   m_ObjectHideFlags: 0
@@ -1378,6 +1379,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CollisionDetection
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622254886835912001, guid: 0ed9fdc762923734cb2a5a74202407dd,
+        type: 3}
+      propertyPath: throwForceInZ
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622254886835912001, guid: 0ed9fdc762923734cb2a5a74202407dd,
+        type: 3}
+      propertyPath: throwForceInXandY
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6296438974647458956, guid: 0ed9fdc762923734cb2a5a74202407dd,
         type: 3}

@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 363a670aca078da448882fd522266105, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: TaskListUI
+  nextScene: AcceptedUI
 --- !u!1 &227110854
 GameObject:
   m_ObjectHideFlags: 0
