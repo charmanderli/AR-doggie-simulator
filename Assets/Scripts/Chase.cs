@@ -6,7 +6,7 @@ public class Chase : MonoBehaviour
 {
     [SerializeField] GameObject wayPoint;
     private Vector3 wayPointPosition;
-    [SerializeField] float speed = 0.05f;
+    public float speed = 0.05f;
 
     // Update is called once per frame
     void Update()
