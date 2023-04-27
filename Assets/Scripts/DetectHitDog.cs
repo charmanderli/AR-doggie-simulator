@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DetectHitDog : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class DetectHitDog : MonoBehaviour
     [SerializeField] bool destroyThis;
     [SerializeField] bool triggerEat;
     [SerializeField] bool triggerJump;
-    [SerializeField] GameObject nextCanvas;
+    public GameObject nextCanvas;
     private Animator huskyAnimator;
 
     private bool OnTriggerEnter(Collider other)
@@ -33,6 +34,7 @@ public class DetectHitDog : MonoBehaviour
             TriggerJumpAnimation();
         }
 
+        nextCanvas = GameObject.Find("HitCanvas");
         if (nextCanvas)
         {
             nextCanvas.SetActive(true);

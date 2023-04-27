@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: -4580647759223529092}
   - component: {fileID: -7693537542248450307}
   - component: {fileID: 5622254886835912001}
-  - component: {fileID: 134688729255694847}
+  - component: {fileID: 3751251897959569095}
   m_Layer: 0
   m_Name: ultra realistic tennis ball
   m_TagString: Untagged
@@ -112,7 +112,7 @@ Transform:
   m_GameObject: {fileID: 6641297964062541366}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6850333274427125204}
@@ -129,7 +129,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
@@ -160,9 +160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fadfe557fefc0154a9e70b8751ad42f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  throwForceInXandY: 0.6
-  throwForceInZ: 3
---- !u!114 &134688729255694847
+  throwForceInXandY: 0.1
+  throwForceInZ: 33
+--- !u!114 &3751251897959569095
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

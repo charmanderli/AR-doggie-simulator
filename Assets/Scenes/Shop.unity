@@ -2050,7 +2050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wayPoint: {fileID: 1354141925}
-  speed: 3
+  speed: 0.8
 --- !u!1 &1686079540
 GameObject:
   m_ObjectHideFlags: 0
